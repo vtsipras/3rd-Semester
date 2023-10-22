@@ -1,5 +1,3 @@
-package src;
-
 public class subject {
     private int code;
     private String name;
