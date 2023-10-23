@@ -12,15 +12,7 @@ import java.util.concurrent.RecursiveTask;
  */
 public class Blog {
     ArrayList<BlogPost> blogPosts;
-    int i;
     private String title;
-    private int characters;
-    private int likes;
-    private int views;
-    public boolean hasImage;
-
-
-
 
     /**
      * Κατασκευαστής που αρχικοποιεί κατάλληλα τα πεδία της κλάσης
