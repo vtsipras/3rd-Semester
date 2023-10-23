@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * εικόνα.
  * <p>
  * This class represents a blog post. For each post, we would like to have: the title, the number of characters of the
- * text, the number of likes and views, and if the post has an image or not.
+ * text, the number of likes and views, and if the post has an image or not..
  */
 
 public class BlogPost {
