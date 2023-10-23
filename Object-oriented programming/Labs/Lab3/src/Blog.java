@@ -8,10 +8,10 @@ import java.util.concurrent.RecursiveTask;
  * αναρτήσεις, μας ενδιαφέρει και ο τίτλος του.
  * <p>
  * Class for the blog that contains posts (BlogPost class). Apart from the posts, we would also like to keep the title
- * of the blog..
+ * of the blog.
  */
 public class Blog {
-    private ArrayList<BlogPost> blogPosts = new ArrayList<>();
+    ArrayList<BlogPost> blogPosts;
     int i;
     private String title;
     private int characters;
@@ -56,7 +56,7 @@ public class Blog {
      * Method foe returning the list with the posts
      */
     public List<BlogPost> getPosts() {
-        return new ArrayList<BlogPost>();
+        return this.blogPosts;
     }
 
 
@@ -95,12 +95,12 @@ public class Blog {
         }
         else {
             for (BlogPost post : blogPosts) {
-                    totalLikes += post.getLikes();
+                totalLikes += post.getLikes();
             }
         }
         return totalLikes;
 
-        }
+    }
 
     /**
      * Μέθοδος που επιστρέφει τον μέσο αριθμό views που έχουν οι αναρτήσεις του blog
@@ -112,19 +112,19 @@ public class Blog {
         int numberOfPosts = blogPosts.size();
 
         if (numberOfPosts > 0) {
-            return (double) totalViews / numberOfPosts;
+            return totalViews / (double) numberOfPosts;
         } else {
-            return 0.0;
+            return 0;
         }
     }
 
-        public int getTotalViews() {
-            int totalViews = 0;
-            for (BlogPost post : blogPosts) {
-                totalViews += post.getViews();
-            }
-            return totalViews;
+    public int getTotalViews() {
+        int totalViews = 0;
+        for (BlogPost post : blogPosts) {
+            totalViews += post.getViews();
         }
+        return totalViews;
+    }
 
 
 }
