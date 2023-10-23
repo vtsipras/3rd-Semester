@@ -1,6 +1,6 @@
 /**
  * Αυτή η κλάση αναπαριστά έναν παίκτη.
- * This class represents a player.
+ * This class represents a player..
  */
 public class Player {
 

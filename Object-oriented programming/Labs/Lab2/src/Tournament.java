@@ -1,6 +1,6 @@
 /**
  * Αυτή η κλάση αναπαριστά ένα τουρνουά σκάκι που  αποτελείται από δύο παίκτες (Player κλάση).
- * This class represents a chess tournament consisting of two players (Player class)
+ * This class represents a chess tournament consisting of two players (Player class).
  */
 public class Tournament {
 
