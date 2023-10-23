@@ -3,7 +3,7 @@ public class subject {
     private String name;
     private int sem;
 
-    public subject(int code, String name, int sem) {
+    public subject(int code, String name,  int sem) {
         this.code = code;
         this.name = name;
         this.sem = sem;
