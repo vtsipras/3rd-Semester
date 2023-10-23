@@ -1,6 +1,6 @@
 /**
  * Αυτή η κλάση αναπαριστά ένα ανθρώπινο σώμα.
- * This class represents a human body.
+ * This class represents a human body
  */
 public class Human {
 
