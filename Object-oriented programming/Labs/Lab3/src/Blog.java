@@ -8,7 +8,7 @@ import java.util.concurrent.RecursiveTask;
  * αναρτήσεις, μας ενδιαφέρει και ο τίτλος του.
  * <p>
  * Class for the blog that contains posts (BlogPost class). Apart from the posts, we would also like to keep the title
- * of the blog.
+ * of the blog..
  */
 public class Blog {
     private ArrayList<BlogPost> blogPosts = new ArrayList<>();
