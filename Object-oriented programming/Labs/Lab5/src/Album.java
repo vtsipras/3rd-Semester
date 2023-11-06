@@ -3,9 +3,9 @@ import java.util.HashMap;
 
 /**
  * Η κλάση αυτή αναπαριστά ένα μουσικό άλμπουμ, για το οποίο μας ενδιαφέρουν ο τίτλος του και ζευγάρια <τίτλος
- * τραγουδιού, διάρκεια>
+ * τραγουδιού, διάρκεια>.
  * <p>
- * This class represents an album for which we want to keep its title and pairs of type <song title, duration>
+ * This class represents an album for which we want to keep its title and pairs of type <song title, duration>.
  *
  * @author Athanasios Lagopoulos
  */

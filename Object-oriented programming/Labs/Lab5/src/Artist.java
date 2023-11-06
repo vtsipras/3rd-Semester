@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Αυτή η κλάση αναπαριστά μια συλλογή μουσικών άλμπουμ ενός καλλιτέχνη για τον οποίον κρατάμε και το όνομα.
  * <p>
- * This class represents a collection of music albums of an artist, for whom we keep also the name.
+ * This class represents a collection of music albums of an artist, for whom we keep also the name..
  */
 public class Artist {
 
