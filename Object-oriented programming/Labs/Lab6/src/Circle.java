@@ -4,7 +4,6 @@
  * Class that represents a circle
  */
 public class Circle {
-
     double r;
     /**
      * Κατασκευαστής / Constructor
