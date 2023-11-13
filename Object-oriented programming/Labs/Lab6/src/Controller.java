@@ -9,7 +9,6 @@ import java.util.List;
 public class Controller {
     private ArrayList<Circle> circles=new ArrayList<>();
 
-
     /**
      * Κατασκευαστής
      * <p>
