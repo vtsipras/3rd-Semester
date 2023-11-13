@@ -5,7 +5,6 @@
  */
 public class Cylinder extends Circle {
     double h,r;
-
     /**
      * Κατασκευαστής/ Constructor
      *
